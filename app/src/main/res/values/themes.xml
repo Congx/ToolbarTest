@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ToolBar样式.-->
+    <style name="toolbar_blue_theme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- 改变返回键、标题、菜单栏颜色.-->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+</resources>
