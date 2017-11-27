@@ -41,8 +41,8 @@ public abstract class BaseToolbarActivity extends BaseActivity implements Toolba
      * 版本号小于21的后退按钮图片
      */
     private void showBack(){
-        //setNavigationIcon必须在setSupportActionBar(toolbar);方法后面加入
-//        mToolbar.setNavigationIcon(R.mipmap.icon_back);
+//      setNavigationIcon必须在setSupportActionBar(toolbar);方法后面加入
+//      mToolbar.setNavigationIcon(R.mipmap.icon_back);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mToolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
